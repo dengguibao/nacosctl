@@ -1,5 +1,9 @@
 # nacosctl  
 
+## build  
+> pip install urllib3 nuitka  
+> python3 -m nuitka --standalone --onefile --output-filename=nacosctl   ./main.py 
+
 ## usage:  
 
 nacosctl user login -u nacos -p  'Nacos!@#123'
